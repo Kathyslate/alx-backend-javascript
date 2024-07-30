@@ -1,3 +1,4 @@
+/* newGrades is an array of objects */
 function updateStudentGradeByCity(students, city, newGrades) {
     const studentsInCity = students.filter((student) => student.location === city);
     return studentsInCity.map((student) => {
